@@ -1,0 +1,25 @@
+name: flutter_clock
+description: A simple flutter clock application
+publish_to: 'none' # Hapus baris ini jika Anda akan mempublikasikan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^9.2.0
+  intl: ^0.17.0
+  timezone: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/alaram_sound.mp3
